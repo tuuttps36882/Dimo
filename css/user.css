@@ -1,0 +1,53 @@
+.body {
+    display: flex;
+    margin-top: 20px;
+}
+.body-left {
+    background-color: #FEAC5E;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.body-left  .action  {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.3s;
+    
+}
+.body-left  .action:hover {
+    opacity: 0.4;
+}
+.body-left .action a {
+    color: black;
+    padding: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.body-right {
+    background-color: #b8b8b8 ;
+    width: 70%;
+    margin-left: 30px;
+    margin: 0 auto;
+}
+.body-right .user .user-info{
+    padding-top: 30px;
+    
+}
+.body-right .user .user-info p{
+    font-weight: 700;
+}
+.body-right .user .user-info p,.show{
+    font-size: 20px;
+    padding: 15px;
+}
